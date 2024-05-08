@@ -1,6 +1,5 @@
 import React from 'react'
 import './Title.css'
-// import {props} from 'react'
 
 const Title = (props) => {
   return (
@@ -11,5 +10,5 @@ const Title = (props) => {
     </div>
   )
 }
-// import './Title.css'
 export default Title
+
