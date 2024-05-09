@@ -1,0 +1,58 @@
+.testimonials{
+    margin: 80px auto;
+    position: relative;
+    padding: 0 80px;
+}
+.next-icon, .back-icon{
+position: absolute;
+top: 50%;
+right: 0;
+transform: translateY(-50%);
+padding: 15px;
+width: 50px;
+border-radius: 50%;
+background: darkblue;
+cursor: pointer;
+}
+
+.back-icon{
+    left: 0;
+    right: auto;
+}
+.slider{
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    width: 200%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    transform: translateX(-25%);
+}
+.slider ul li{
+    list-style: none;
+    width: 50%;
+    padding: 20px;
+}
+.slide{
+    color: #676767;
+    box-shadow: 0 0 20px darkblue;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.slide img{
+    width: 65px;
+    border-radius: 50%;
+    border: 3px solid darkblue;
+    margin-right: 10px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.user-info h3{
+    color: darkblue;
+}

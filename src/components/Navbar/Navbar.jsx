@@ -5,9 +5,9 @@ import logo from '../../assets/logo.png'
 const Navbar = () => {
   const [sticky, setSticky] = useState(false)
 
-  useEffect(()=>{
+  useEffect(()=>{  
     window.addEventListener('scroll', ()=>{
-      window.scrollY >50 ? setSticky(true):setSticky(false);
+      window.scrollY >600  ? setSticky(true):setSticky(false);
     })
   },[])
 

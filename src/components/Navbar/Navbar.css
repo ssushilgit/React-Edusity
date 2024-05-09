@@ -23,6 +23,6 @@ nav ul li{
     cursor: pointer;
 }  
 .dark-nav{
-    background: #212ea0;
-    transition: 0.5s;
+    background: darkblue;
+    transition: 0.4s;
 }
