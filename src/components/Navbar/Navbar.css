@@ -26,3 +26,50 @@ nav ul li{
     background: darkblue;
     transition: 0.4s;
 }
+.menu-icon{
+    display: none;
+}
+
+/* Media Query */
+@media(max-width: 962px){
+    .logo{
+        width: 140px;
+    }   
+    nav ul li{
+        margin: 10px 15px;
+    }
+}
+
+@media(max-width: 854px){
+    nav{
+        padding: 15px 0;
+    }
+    nav ul{
+        position: fixed;
+        top: 0;
+        right: 0px;
+        bottom: 0;
+        background: darkblue;
+        z-index: -1;
+        width: 200px;
+        /* height: 100%; */
+        padding-top: 70px;
+        transition: 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px 40px;
+    }
+    .btn{
+        padding: 10px 15px;
+        /* margin-left: 0px; */
+    }
+    .menu-icon{
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
+    .hide-mobile-menu{
+        right: -200px;
+    }
+}
